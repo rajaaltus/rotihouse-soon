@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title id="title">Roti House, Traditional Indian Restaurant, Vientiane, Laos.</title>
+		<meta name="description" content="Roti House is an North and South indian Restaurant." />
+		<meta name="keywords" content="North Indian Restaurant and South Indian food, Idli, Dosa, Sambar, Naan, Tikka" />
+		<meta name="author" content="Raja S"/>
+		
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		
+		<!--Fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Lora:400,400i,700,700i' rel='stylesheet' type='text/css'>
+		
+		<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	
+	<body data-ng-app="contactApp">
+	
+		<!--Preloader-->
+		<div class="preloader-it">
+			<div class="la-anim-1"></div>
+		</div>
+		<!--/Preloader-->
+		
+		<!--Container-->
+		<div class="pad-zero">
+			
+			<!--Splitlayout -->
+			<div id="splitlayout" class="splitlayout reset-layout">
+				
+				<!--Intro-->
+				<div class="intro">
+					
+					<!--Left Content Intro-->
+					<div class="side side-left text-center">
+						
+						<!--Background Slider-->
+						<div class="slider  full-height">
+							<!--Slider One-->
+							<div class="slide slide-0 active">
+								<div class="slide__bg"></div>
+							</div>
+							<!--/Slider One-->
+							
+							<!--Slider Two-->
+							<div class="slide slide-1">
+								<div class="slide__bg"></div>
+							</div>
+							<!--/Slider Two-->
+							
+							<!--Slider Three-->
+							<div class="slide slide-2">
+								<div class="slide__bg"></div>
+							</div>
+							<!--/Slider Three-->
+						</div>
+						<!--/Background Slider-->
+						
+						<!--Left Nav-->
+						<!-- <div class="call-to-action about btn btn-circle btn-icon-anim">
+							<div>
+								<span class="goto-next">
+									<i class="icon-info"></i>
+								</span>
+								<span class="goto-close opacity-hide">
+									<i class="icon-close"></i>
+								</span>
+								
+							</div>	
+						</div> -->
+						<!--/Left Nav-->
+						
+						<!--Main Content-->
+						<section class="col-lg-9 col-md-10 col-sm-11 col-xs-11 content-wrap align-center sec-pad">
+							<div class="table-wrap">
+								<div class="table-cell vertical-align-middle">
+									<!--Logo-->
+									<header class="logo margin-bottom-25">
+										<img src="img/logo.png" alt="logo">
+									</header>
+									<!--/Logo-->
+									
+									<p class="secondery-font margin-bottom-25">We are busy working on something awesome.</p>
+									<div class="type-wrap hide-overflow margin-bottom-15">
+										<h1 class="animated"><span id="typed" ></span></h1>
+									</div>
+									<img class="inline-block margin-bottom-5" src="img/tree.png" alt="chrismas"/>
+									<span class="block secondery-font font-16 font-italic font-capitalize">Merry Christmas</span>
+								</div>	
+							</div>	
+							<!--left overlay-->
+						</section>
+						
+						<!--Gradient overlay-->
+						<div id="gradient"></div>
+						<!--Gradient overlay-->
+						
+						<!--Left overlay-->
+						<div class="side-left-overlay"></div>
+						<!--Left overlay-->
+						
+					</div>
+					<!--/Left Content Intro-->
+					
+					<!--Right Content Intro-->
+					<div class="side side-right text-center bg-pattern">
+						
+						<!--Right Nav-->
+						<div class="call-to-action contact btn btn-circle btn-icon-anim">
+							<div>
+								<span class="goto-next">
+									<i class="icon-envelope-open"></i>
+								</span>
+								<span class="goto-close opacity-hide">
+									<i class="icon-close"></i>
+								</span>
+								
+							</div>	
+						</div>
+						<!--/Right Nav-->
+						
+						<section class="col-lg-12 content-wrap sec-pad">
+							<div class="table-wrap">
+								<div class="table-cell vertical-align-middle">
+									<div class="main-content">
+										<!--main content-->
+										<section class="col-lg-8 col-md-8 col-sm-9 col-xs-11 intro-text hide-overflow align-center">
+											<div id="slide_out" class="relative">
+												<div class="logo">
+													<img src="img/logo.png" width="40%" alt="logo"/>
+												</div>
+												<!-- <img class="inline-block margin-bottom-5" src="img/tree.png" alt="chrismas"/> -->
+												<!--Counter-->
+												<!-- <div id="countdown" class=" secondery-font font-16 font-italic margin-bottom-20">
+												  <span class="days">00</span>
+												  <span>days to go</span>
+												</div> -->
+												<!--/Counter-->	
+												<h4 class="font-uppercase margin-top-35 margin-bottom-35">We deliver unique dining experience for indian food.</h4>
+												<div class="clearfix"></div>
+												<div class="notify-btn main-menu">
+													<span class="btn btn-default">
+														<span class="mask"></span>
+														<span class="btn-label">
+															<b>Notify me</b>
+														</span>
+													</span>
+													<span class="btn btn-default">
+														<span class="mask"></span>
+														<span class="btn-label">
+															<b>Download menu</b>
+														</span>
+													</span>
+												</div>
+											</div>	
+											<!--Notify Form-->
+											<section id="slide_in" class="text-center  notify-form-wrap relative hide-block hide-left-opac">
+												<a id="notify_close" class="close-notify margin-bottom-15 margin-lr-auto" href="#">
+													<div>
+														<span class="goto-close">
+															<i class="icon-close"></i>
+														</span>
+														
+													</div>	
+												</a>
+												
+												<!--CONTENT CHANGED & <br> ADDED-->								
+												<div class="notify-wrap">
+													<h4 class="wellcome-text margin-bottom-25" data-ng-bind="notify || 'hello'">Hello</h4>
+													<form id="notifyMe" class="contact-form"  action="notify-me.php" method="post">
+														<div class="input-wrap margin-bottom-25">
+															<input  data-ng-model="notify" class="col-lg-10  align-center form-control input input__field input__field--hoshi text-center" name="email" placeholder="email id"  type="email">
+															<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
+															
+														</div>	
+														
+														<button type="submit" data-hover="Send" class="btn btn-default progress-button btn-submit">
+														<span class="mask"></span>
+														<span class="btn-label">submit</span>
+														</button>
+													</form>
+												</div>
+											</section>
+											<!--/Notify Form-->
+										</section>
+										<!--/main content-->
+									</div>
+								</div>
+							</div>
+						</section>			
+						<div class="container-fluid pad-zero social-wrpper">
+														
+							<!--Footer-->
+							<footer class="copyright-text margin-sm-30 margin-top-xs-0">
+							
+								<!--Social Icons-->
+								<ul class="social-icons animated">
+									<li>
+										<a href="https://www.facebook.com/rotihouselao/?ref=bookmarks" class="social-icon">
+											<span class="fa" data-hover="&#xf09a;">&#xf09a;</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="social-icon">
+											<span class="fa" data-hover="&#xf099;">&#xf099;</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="social-icon">
+											<span class="fa" data-hover="&#xf16e;">&#xf16e;</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.facebook.com/rotihouselao/?ref=bookmarks" class="social-icon">
+											<span class="fa" data-hover="&#xf16d;">&#xf16d;</span>
+										</a>
+									</li>
+								</ul>
+								<!--/Social Icons-->
+								
+								<p>Pampered by Altus Infotech © 2019</p>
+							</footer>
+							<!--/Footer-->
+							
+						</div>	
+						
+						<!--Right overlay-->
+						<div class="side-right-overlay"></div>
+						<!--/Right overlay-->
+						
+					</div>
+					<!--/Right Content Intro-->
+					
+				</div>
+				<!--/Intro-->
+				
+			
+				
+				<!--Right Section-->
+				<div class="page page-right">
+					<div  class="page-inner full-height">
+						<!--form sec-->
+						<section data-ng-controller="ContactController" class="container-fluid align-center animated  sec-pad">
+							<h4 class="margin-bottom-25">Hey <span  data-ng-bind="formData.inputName||'There'" class="secondery-font font-italic weight-500">There</span>, happy to hear from you.</h4>
+							<div>
+								<form data-ng-submit="submit(contactform, $event)"  name="contactform"  method="post" class="row form-horizontal" role="form">
+									<div class="form-group input--hoshi col-sm-6" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
+										<div class="input-wrap">
+											<input autocomplete="off" data-ng-model="formData.inputName" type="text" class="form-control input__field input input__field--hoshi" id="inputName" name="inputName" placeholder="Name" required>
+											<label class="input__label input__label input__label--hoshi input__label--hoshi-color-1 input__label--hoshi input__label--hoshi-color-1" ></label>
+										</div>	
+									</div>
+									<div class="form-group  input--hoshi col-sm-6" data-ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }">
+										<div class="input-wrap">
+											<input autocomplete="off" data-ng-model="formData.inputEmail" type="email" class="form-control input input__field input__field--hoshi" placeholder="Email" id="inputEmail" name="inputEmail" required>
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
+										</div>	
+									</div>
+									<div class="form-group  input--hoshi col-sm-12" data-ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
+										<div class="input-wrap">
+											<textarea data-ng-model="formData.inputMessage" class="form-control input input__field input__field--hoshi" rows="4" id="inputMessage" name="inputMessage" placeholder="message" required></textarea>
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
+										</div>	
+									</div>
+									<div class="form-group col-sm-12">
+										<div class="align-center">
+											<button type="submit" class="btn btn-default" data-ng-disabled="submitButtonDisabled">
+											<span class="mask"></span>
+											<span class="btn-label">send</span>
+											</button>
+										</div>
+									</div>
+								</form>
+								<p data-ng-class="result">{{ resultMessage }}</p>
+							</div>
+							
+							<div class="row">
+								<div class="address-detail">
+									<div class="col-sm-4 margin-bottom-sm">
+											
+										<span>visit</span>
+										<p>23/5, KhunBuLom Road, Sihom, Vientiane, Laos. Fifth Avenue, New York 10118.</p>
+									</div>	
+									<div class="col-sm-4 margin-bottom-sm">
+											
+										<span>reach</span>
+										<a href="mailto:info@rotihouselao.com" target="_blank">info@rotihouselao.com</a>
+									</div>
+									
+									<div class="col-sm-4 margin-bottom-sm">
+										
+										<span>call</span>
+										<a href="callto:02058026838" target="_blank">+856 (20) 580-26838</a>
+									</div>
+								</div>
+							</div>
+						</section>	
+						<!--/form sec-->
+					
+						<!--google map-->
+						<section class="map-sec">
+							<div id="map_canvas"></div>
+						</section>
+						<!--/google map-->
+					</div>
+				</div>
+				<!--/Right Section-->
+				
+			</div>
+			<!-- /Splitlayout -->
+		
+		</div>
+		<!-- /Container -->
+		
+		<!--PhotoSwipe Popup-->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="pswp__bg"></div>
+			<div class="pswp__scroll-wrap">
+
+				<div class="pswp__container">
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+				</div>
+
+				<div class="pswp__ui pswp__ui--hidden">
+
+					<div class="pswp__top-bar">
+
+						<div class="pswp__counter"></div>
+
+						<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+						<button class="pswp__button pswp__button--share" title="Share"></button>
+
+						<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+						<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+						<div class="pswp__preloader">
+							<div class="pswp__preloader__icn">
+							  <div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							  </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+						<div class="pswp__share-tooltip"></div> 
+					</div>
+
+					<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+					</button>
+
+					<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+					</button>
+
+					<div class="pswp__caption">
+						<div class="pswp__caption__center"></div>
+					</div>
+
+				  </div>
+
+			</div>
+		</div>
+		<!--/PhotoSwipe Popup-->
+		
+		<!-- Scripts -->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/cbpSplitLayout.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controllers.js"></script>
+		<script src="js/notifyMe.js"></script>
+		<script src="js/jquery.placeholder.js"></script>
+		<script src="js/photoswipe.min.js"></script>
+		<script src="js/photoswipe-ui-default.min.js"></script>
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		<script src="js/jquery.nicescroll.js"></script>
+		<script src="js/jquery.countdown.js"></script>
+		<script src="js/typed.js"></script>
+		<script src="js/slider.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqzVV5THO0IWRN3sKTgMQjR0EjBGbwifI"></script>
+		<script src="js/init.js"></script>
+
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+		(function(){
+		var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+		s1.async=true;
+		s1.src='https://embed.tawk.to/5d64c635eb1a6b0be6098131/default';
+		s1.charset='UTF-8';
+		s1.setAttribute('crossorigin','*');
+		s0.parentNode.insertBefore(s1,s0);
+		})();
+	</script>
+	<!--End of Tawk.to Script-->
+	</body>
+</html>
